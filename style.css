@@ -1,3 +1,22 @@
+.navbar{
+    width: 100%;
+    background-color: #2C3E50;
+    height: 80px;
+}
+
+.start{
+    font-weight: bold;
+}
+
+.rightport{
+    padding-right: 30px;
+}
+
+.namebox{
+    height: 150px;
+}
+
+
 .blue{
     width: 100%;
     background-color: #2C3E50;
@@ -43,6 +62,21 @@
     font-size: 50px;
 }
 
+.avatar h3{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+
+.avatar i{
+    text-align: center;
+    color: white;
+}
+
+
 .cakes img{
     width: 400px;
     margin-bottom: 25px;
@@ -51,7 +85,13 @@
 
 .cakes h2{
     text-align: center;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.cakes i{
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .about h2{
@@ -75,20 +115,12 @@
     padding: 15px;
 }
 
-.contacts p:last-of-type{
-    padding-bottom: 150px;
+.contacts div:last-of-type{
+    padding-bottom: 80px;
 }
 
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 15px;
+.downloadbtn{
+    margin-left: 50px;
 }
 
 .firstfoot{
@@ -97,4 +129,11 @@
     text-align: center;
     color: white;
     font-size: 30px;
+}
+
+.lastfoot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
