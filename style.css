@@ -16,8 +16,85 @@
     height: 800px;
 }
 
+.contacts{
+    width: 100%;
+    background-color: white;
+    height: 800px;
+}
+
+
 .lightblue{
     width: 100%;
     background-color: #3A546D;
     height: 150px;
+}
+
+.avatar img{
+    width: 400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+.cakes img{
+    width: 400px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.cakes h2{
+    text-align: center;
+    margin: 50px;
+}
+
+.about h2{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.sampletxt{
+    color: white;
+    height: 400px;
+    text-align: left;
+}
+
+.contacts h1{
+    text-align: center;
+    margin: 50px;
+}
+
+.contacts p{
+    padding: 15px;
+}
+
+.contacts p:last-of-type{
+    padding-bottom: 150px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.firstfoot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }
